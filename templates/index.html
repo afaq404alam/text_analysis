@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Text Analysis</title>
+
+</head>
+
+<body>
+    <div id="div-txt" align="center">
+        <label>Enter text for analysis</label>
+        <br/>
+        <textarea rows="20" cols="200" name="text-for-analysis" id="txt-for-analysis"></textarea>
+        <br/>
+        <button type="submit" id="get-stats">Go!</button>
+    </div>
+    <div id="div-word-cloud">
+        <script src="{{ url_for('static', filename='jquery-3.2.0.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='d3.min.js')}}"></script>
+        <script src="{{ url_for('static', filename='d3.layout.cloud.js')}}"></script>
+        <script src="{{ url_for('static', filename='word.cloud.js')}}"></script>
+
+    </div>
+
+
+</body>
+
+</html>
