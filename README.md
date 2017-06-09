@@ -13,3 +13,7 @@ Following statistics can be taken out from the text:
 	   going through the whole text. Word cloud by d3.js can give us better insights on the most common words in a text.
 	2. Positive/Negative/Neutral polarity of words: Get the polarity of all the words and group them into positive and negative word groups. These groups can help
 	   us better understand the overall mood of the text.
+
+# Requirements
+1. Flask
+2. nltk
